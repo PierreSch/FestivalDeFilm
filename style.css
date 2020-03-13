@@ -1,0 +1,185 @@
+
+    /* Menu de navigation */
+.navbar{
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0px 5px 6px black !important;
+    margin-bottom: 10px;
+    height: 90px;
+    background: #515151 !important;    
+}
+.navbar-collapse, .navbar-nav{
+    background: #515151!important;
+}
+.nav-item{
+    margin-left: 15px;
+}
+body{
+    padding-top: 90px;
+}
+.navbar-brand{
+    max-height: 80px;
+}
+    /* Carousel */
+.logo{
+    transform: scale(0.35);
+    opacity: 0.9;  
+}
+.d-block{
+    opacity: 0.9;
+}
+    /* Style de texte */
+.programmation{
+    text-decoration: underline;
+    font-weight: 700;
+
+}
+.titre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans MT condensed', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: black;
+}
+.titrebg{
+    
+    margin-bottom: 50px;
+    font-family: 'Gill Sans MT condensed', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: black;
+}
+.sous-titre{
+    font-family: 'Gill Sans MT condensed', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.sous-titreS{
+    font-family: 'Gill Sans MT condensed', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.btn1{
+    background: black;
+    border: 1px solid black;
+    border-radius: 90px;
+    max-height: 50px;
+    margin-top: 19px;
+    color: white;
+}
+.nav-link,.white{
+    color:white !important;
+}
+.btn1:hover{
+    transform: scale(1.02) !important;
+    opacity: 1;
+    box-shadow: 0 0 10px black !important;
+}
+.req{
+    color: red;
+}
+p, a,.synopsis, label, button, input{
+    font-family: 'roboto', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    color: black;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover, .white:hover{
+    color: black !important;
+    text-decoration: underline;
+}
+#presentation a{
+    text-decoration: underline;
+}
+#presentation a:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+    
+}
+    /* Mise en page section */
+#inscription, #contact, #presentation{
+    background-image: url(img/bg-inscription.jpg);
+    background-attachment: fixed;
+    opacity: 0.9;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+.bgins{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px black;
+    background: white;
+    padding: 20px;
+    
+}
+    /* Section film */
+.affiche-film img{
+    max-width: 150px;
+    margin-top: 25px;
+    padding: 10px;
+ 
+}
+.affiche-film img:hover ,.on{
+    max-width: 150px;
+    margin-top: 25px;
+    padding: 10px;
+    border: 2px solid black;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px black;
+}
+.off{
+    max-width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    opacity: 0.7;
+}
+.bg-syn{
+    border: 2px solid black;
+    box-shadow: 0px 0px 6px black;
+    padding: 10px;
+}
+    /*Section contact*/
+
+.carte{
+    border: 2px solid black;
+    box-shadow: 0px 0px 6px black;
+    margin-left: 30px;
+}
+    /*Section actu*/
+.img-art{
+    width: 80%;
+}
+.art p{
+    margin-top: 20px;
+}
+article{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 8px black;
+}
+article .btn1{
+    padding: 5px;
+}
+    /*Section footer*/
+footer{
+    background: #515151;
+}
+
+.logo-footer{
+    width: 150px;
+    margin: 10px;
+}
+
+.RGPD{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
